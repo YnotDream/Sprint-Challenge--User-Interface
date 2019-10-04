@@ -28,6 +28,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
@@ -69,6 +70,26 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+header {
+    display: flex; 
+    margin: 20px 0px 35px 0;
+}
+
+
+nav {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    width: calc(800px - 159px);
+}
+
+nav a {
+    color: black;
+    text-decoration: unset;
+    font-size: 13px;
+    font-weight: 600;
 }
 
 .top-content {
