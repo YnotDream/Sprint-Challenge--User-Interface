@@ -282,6 +282,38 @@ footer nav {
 footer nav a {
   color: white;
   text-decoration: none;
-  /* font weight didn't match design file so I tweaked it even if not part of assignmentgit  */
+  /* font weight didn't match design file so I tweaked it even if not part of assignment  */
   font-weight: unset;
+}
+
+.about-content {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.about-boxes {
+  border-top: dashed black 1px;
+  /* padding: 25px 15px; */
+  margin: 18px 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-box {
+  flex: 1;
+  margin: 25px 15px;
+  padding-bottom: 15px;
+  border-bottom: dashed 1px black;
+}
+
+.about-box .text-container {
+  margin-top: 10px;
+  margin-bottom: 12px;
+}
+
+.about-box button {
+  background: transparent;
+  border-radius: 8px;
+  border: 1.3px solid black;
+  padding: 6px 20px;
 }
